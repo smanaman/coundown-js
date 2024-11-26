@@ -3,9 +3,9 @@ let HourText = document.getElementById('HourText')
 let MiniText = document.getElementById('MiniText')
 let SecText = document.getElementById('SecText')
 
-let targetdate = new Date()
+let targetdate = new Date(" December 5, 2024 15:37:25")
 
-targetdate.setDate(targetdate.getDate() + 10)
+// targetdate.setDate(targetdate.getDate() + 10)
 
 
 let currentdate = new Date()
@@ -14,19 +14,19 @@ let currentdate = new Date()
 let Difference = targetdate - currentdate;
 
 
-let days = Difference / (1000 * 60 * 60 * 24);
+let days = Math.round(Difference / (1000 * 60 * 60 * 24));
 
 DayText.innerHTML = days
 
-let hour = Difference / (1000 * 60 * 60);
+let hour =Math.round(Difference / (1000 * 60 * 60));
 
 HourText.innerHTML = hour
 
-let min = Difference / (1000 * 60);
+let min =Math.round(Difference / (1000 * 60));
 
 MiniText.innerHTML = min
 
-let sec = Difference / (1000);
+let sec = Math.round(Difference / (1000));
 
 SecText.innerHTML = sec
 

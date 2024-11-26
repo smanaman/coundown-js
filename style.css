@@ -6,8 +6,9 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url();
     background-size: cover;
+    background-color: black;
+    background-image: url(https://ic.c4assets.com/bips/3058214/D98D647B-A897-4ceb-bc57-464738a556ad.png?imformat=chrome);
 }
 .countdown{
     width: 700px;
@@ -35,7 +36,7 @@ body{
 .count-text{
     width: 98.7%;
     height: 70px;
-    border: 1px solid black;
+    border: 1px solid rgb(234, 225, 225);
 
     display: flex;
     justify-content: center;
@@ -44,11 +45,22 @@ body{
 p{
     font-size: 30px;
    font-weight: 700;
-   font-family: "Anton", sans-serif;}
-   .textname{
+   font-family: "Anton", sans-serif;
+   color: white;
+}
+   
+.textname
+   {
     width: 99%;
     height: 30px;
-    border: 1px solid black;
+    border: 1px solid rgb(252, 247, 247);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: "Anton", sans-serif;
+font-weight: 600;
+color: white;
    }
