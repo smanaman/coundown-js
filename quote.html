@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   .root{
+    display: flex;
+    height: 100wh;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   }
+
+    .main {
+        width: 230px;
+        height: 300px;
+        border:4px solid #E6892C;
+        border-bottom-right-radius: 50%;
+        /* background-color: black; */
+        overflow: hidden;
+
+    }
+
+    .div {
+        width: 120px;
+        height: 65px;
+        /* border: 1px solid black; */
+        border-top: 4px solid #E6892C;
+        border-right: 4px solid #E6892C;
+        border-bottom: 4px solid #E6892C;
+        border-bottom-right-radius: 85%;
+        transform: translateY(-140px);
+        background-color: white;
+    }
+
+    .maindiv {
+        width: 230px;
+        height: 353px;
+        /* border: 1px solid black; */
+        transform: translate(25px);
+    }
+
+
+    .maintwo {
+        width: 330px;
+        height: 400px;
+        /* border: 1px solid black; */
+        border-bottom-left-radius: 70%;
+        background-color: #8A4300;
+        overflow: hidden;
+
+    }
+
+    .divtwo {
+        width: 170px;
+        height: 80px;
+        /* border: 1px solid black; */
+        border-bottom-left-radius: 85%;
+        transform: translate(180px, -190px);
+        background-color: white;
+    }
+
+    .maindivtwo {
+        width: 400px;
+        height: 500px;
+        /* border: 1px solid black; */
+    }
+</style>
+
+<body>
+    <div class="root">
+    <div class="maindiv">
+        <div class="main">
+           
+        </div>
+        <div class="div"></div>
+    </div>
+
+    <div class="maindivtwo">
+        <div class="maintwo">
+       
+        </div>
+        <div class="divtwo"></div>
+    </div>
+</div>
+    <!-- <p id="p"></p>
+    <img id="photos" src="" alt="" width="100px" height="100px">
+    <button id="btn" type="click">clickme</button> -->
+    <script>
+
+        let pera = [
+            {
+                pera: 'fgjnfknkfjnjkgnnj1',
+                img: 'https://cdn.shopify.com/s/files/1/2551/6136/files/you-are-enough-quotes-10_480x480.png?v=1667861177'
+            },
+            {
+                pera: 'fgjnfknkfjnjkgnnj2',
+                img: 'https://quotefancy.com/media/wallpaper/3840x2160/6360838-Muhammad-Ali-Quote-Don-t-count-the-days-make-the-days-count.jpg'
+
+            },
+            {
+                pera: 'fgjnfknkfjnjkgnnj3',
+                img: 'https://ideas.hallmark.com/wp-content/uploads/2015/05/love-quotes-01.png'
+
+            }
+        ]
+        let btn = document.getElementById('btn')
+
+        btn.addEventListener('click', () => {
+            let radomnumber = Math.floor(Math.random() * pera.length)
+            console.log(radomnumber);
+            let p = document.getElementById('p')
+            let photo = document.getElementById('photos')
+            let value = pera[radomnumber].pera
+            let imges = pera[radomnumber].img
+
+            console.log(value);
+
+            p.textContent = value
+            photo.src = imges
+        })
+
+    </script>
+</body>
+
+</html>
