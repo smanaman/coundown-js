@@ -1,0 +1,119 @@
+
+    .root {
+        display: flex;
+        height: 100wh;
+        justify-content: center;
+        align-items: center;
+        height: 700px;
+        background-color: #FDDB77;
+     
+    }
+
+    .main {
+        width: 230px;
+        height: 300px;
+        border: 6px solid #E6892C;
+        border-bottom-right-radius: 50%;
+        /* background-color: black; */
+        overflow: hidden;
+
+    }
+
+    .div {
+        width: 120px;
+        height: 65px;
+        /* border: 1px solid black; */
+        border-top: 6px solid #E6892C;
+        border-right: 6px solid #E6892C;
+        border-bottom: 6px solid #E6892C;
+        border-bottom-right-radius: 85%;
+        transform: translateY(-140px);
+        background-color: #FDDB77;
+        border-left: none;
+    }
+
+    .maindiv {
+        width: 230px;
+        height: 353px;
+        /* border: 1px solid black; */
+        transform: translate(25px);
+    }
+
+
+    .maintwo {
+        width: 330px;
+        height: 400px;
+        /* border: 1px solid black; */
+        border-bottom-left-radius: 70%;
+        background-color: #8A4300;
+        overflow: hidden;
+
+    }
+
+    .divtwo {
+        width: 170px;
+        height: 80px;
+        /* border: 1px solid black; */
+        border-bottom-left-radius: 85%;
+        transform: translate(180px, -190px);
+        background-color: #FDDB77;
+        
+    }
+
+    .maindivtwo {
+        width: 400px;
+        height: 500px;
+        /* border: 1px solid black; */
+    }
+
+    .text {
+        width: 280px;
+        height: 180px;
+        /* border: 1px solid black; */
+        transform: translate(-135px, -185px);
+        font-family: "Protest Revolution", sans-serif;
+        color: white;
+
+    }
+
+    #h3 {
+        width: 100%;
+        height: 100px;
+        font-size: 25px;
+        /* border: 1px solid black; */
+    }
+
+    .span {
+        width: 50px;
+        border: 3px solid #E6892C;
+    }
+
+    #p {
+        font-family: "Dancing Script", cursive;
+        margin-top: 2px;
+        font-size: 20px;
+    }
+
+    #btn {
+        position: absolute;
+        top: 550px;
+        left: 650px;
+        width: 100px;
+        height: 30px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+        font-weight: 600;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        justify-content: space-evenly;
+    }
+    #btn i {
+        font-size: 16px;
+        margin-top: 2px;
+        
+
+    }
