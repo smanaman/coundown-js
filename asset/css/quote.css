@@ -1,4 +1,9 @@
-
+.h1{
+    font-size: 45px;
+    font-family: "Protest Revolution", sans-serif;
+    transform: translate(320px,-320px);
+    color: #8A4300;
+}
     .root {
         display: flex;
         height: 100wh;
@@ -97,7 +102,7 @@
     #btn {
         position: absolute;
         top: 550px;
-        left: 650px;
+        left: 730px;
         width: 100px;
         height: 30px;
         font-size: 20px;

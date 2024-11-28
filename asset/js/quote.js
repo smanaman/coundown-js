@@ -23,13 +23,18 @@ let quote = [
     },
     {
         pera: "No matters what you do some people will never like you ",
-        img: 'https://www.xosalonspa.com/wp-content/uploads/2023/07/thomas-shelby-haircut.webp',
-        text: 'Tommy Shelby'
+        img: 'https://i.pinimg.com/564x/ed/e1/dc/ede1dcd6ac02590b2297f1fb92b9db20.jpg',
+        text: 'Thomas Shelby'
     },
     {
-        pera: "The End of story the beginning of many",
+        pera: "The End of story the beginning of man",
         img: 'https://i.pinimg.com/236x/c7/8d/d9/c78dd9ec8e435e46f2e09fe6cdcc2c9b.jpg',
         text: 'The Berlin'
+    },
+    {
+        pera: "Why do we fall ? So we can learn to Pick Ourselves Up ",
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5kTvuA_XhgVsawZTKd_7R_FnxKOjhma2x6Q&s',
+        text: 'Christian Bale'
     }
 ]
 let btn = document.getElementById('btn')
